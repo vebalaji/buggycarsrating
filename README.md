@@ -58,6 +58,12 @@ Download chromedriver depending upon the chrome version from https://chromedrive
 
 Extract chromedriver.exe to the Intellij project folder "src/main/resources/drivers/chrome/"  
 
+### Configuration properties
+
+Parameters required for the tests are provided externally through a configuration file which is present in the Intellij Project folder under "config/config.properties"  
+
+Example: appurl, username, password, firstname, lastname, gender, age, address, hobby etc.  
+
 #### Running the test  
 
 Execute the command to run all the tests in the project  
@@ -73,3 +79,4 @@ Execute the command to run only one test in the project
 Surfire Test reports gets generated in the following Intellij project folder "target\surefire-reports"  
  
 Click on the "index.html" file in the above folder location to view the test report  
+ 
