@@ -1,0 +1,42 @@
+Test Approach for Buggy Cars Rating:
+
+1. Validate Popular Make - Identify distinct car Makes. Find the total votes of each car make by adding individual votes of each model group by the same make.  The make with the highest vote is considered popular make
+
+2. Validate Popular Model - Identify Popular Model. Any Model with the highest individual votes irrespective of Make that it belongs to is considered Popular Model
+
+3. Overall Rating - Validate whether the Rank for each Model is determined correctly. Rank should be sorted ascendingly depending upon the number of votes. Higher the votes lower the Rank. The rank should be the same for all cars having the same votes
+
+4. Page Navigation/Hyperlink: Verify whether we can navigate from home page to all the other pages and can come back to home page. Verify for broken link in each and every page
+
+5. Display of Images - Verify whether the image is displayed in each and every page i.e., check for broken image or image not being displayed
+
+6. Order by Make: Verify whether all the models are displayed for that Make along with Model Name, Rank , Votes and Comments
+
+7. Validate Voting functionality: Verify whether you can vote for a model only if you are logged in and you haven't casted your vote previously for that model. Verify whether Vote count is increased by 1 after successfully casting the vote. After casting the vote, the table below the Model description should display the Date vote has been casted, Author and Comment. It should display all the records from day 1 the application is running from
+
+8. Verify sort order for Overall Rating page for each of the columns i.e., Make, Model, Rank, Votes, Engine
+
+9.  Pagination - Verify whether the pagination i.e., scrolling of pages happens under Overall Rating
+
+10. Logout - Verify user can Logout from each and every page if the user is logged increased
+
+11. Login - verify the user can Login successfully with valid credentials
+
+12. Error message validation - Verify error message is displayed during invalid action example: Invalid username/password
+
+13. Verify whitespace character is trimmed in the username field
+
+14. Profile check & Update - Verify user is able to update profile information once they have logged in
+
+15. Verify Field level validation across all the pages
+
+16. Verify the respective functionalities of all the buttons across all the pages
+
+17. Registration - Verify new registration is successfull. Login name is the primary key and it should be case insensitive and unique
+
+18. Register feature should not be visible once logged in
+
+19. Greeting image is displayed saying Hi,Firstname after successfull login
+
+20. Verify Field length validation across all pages
+
