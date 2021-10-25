@@ -58,7 +58,7 @@ Download chromedriver depending upon the chrome version from https://chromedrive
 
 Extract chromedriver.exe to the Intellij project folder "src/main/resources/drivers/chrome/"  
 
-### Configuration properties
+#### Configuration properties
 
 Parameters required for the tests are provided externally through a configuration file which is present in the Intellij Project folder under "config/config.properties"  
 
