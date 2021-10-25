@@ -1,5 +1,7 @@
 Test Approach for Buggy Cars Rating:
 
+Functional Requirements:
+
 1. Validate Popular Make - Identify distinct car Makes. Find the total votes of each car make by adding individual votes of each model group by the same make.  The make with the highest vote is considered popular make
 
 2. Validate Popular Model - Identify Popular Model. Any Model with the highest individual votes irrespective of Make that it belongs to is considered Popular Model
@@ -40,3 +42,24 @@ Test Approach for Buggy Cars Rating:
 
 20. Verify Field length validation across all pages
 
+Non Functional Requirements:
+
+Performance requirement:
+
+1. Page Load: Each page must be loaded within 2 seconds
+
+2. Registration: Registration should happen in 2 seconds
+
+3. Number of concurrent Users: 10000 concurrent users
+
+4. Compatability: Support different browsers including Chrome, Firefox, Internet Explorer and Safari
+
+5. Usability: Application should be compatible to be viewed in Mobile devices
+
+Security requirements:
+
+1. Testing for Cross Site Scripting
+
+2. Check for Broken Authentication and Session Management
+
+3. Check for Sensitive Data Exposure
