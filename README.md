@@ -60,7 +60,7 @@ Extract chromedriver.exe to the Intellij project folder "src/main/resources/driv
 
 #### Configuration properties
 
-Parameters required for the tests are provided externally through a configuration file which is present in the Intellij Project folder under "config/config.properties"  
+Parameters required to run the tests are provided externally through a configuration file which is present in the Intellij Project folder under "config/config.properties"  
 
 Example: appurl, username, password, firstname, lastname, gender, age, address, hobby etc.  
 
