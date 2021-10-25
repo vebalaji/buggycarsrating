@@ -46,7 +46,7 @@ Download and extract latest Maven Binary zip archive version from https://maven.
 Set MAVEN_HOME to the location of the maven folder [example: C:\Maven\apache-maven-3.8.3]  
 Set PATH to %MAVEN_HOME%\bin  
 
-### Cloning the project  
+#### Cloning the project  
 
 Clone this git hub repository to your local machine using the following command:  
 
@@ -73,8 +73,3 @@ Execute the command to run only one test in the project
 Surfire Test reports gets generated in the following Intellij project folder "target\surefire-reports"  
  
 Click on the "index.html" file in the above folder location to view the test report  
-
-
-
-
-
